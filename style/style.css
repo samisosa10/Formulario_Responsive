@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h2 {
+  color: #0d0c22;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.brown-container {
+  background: #f2d184;
+  color: #866118;
+  width: 500px;
+  margin-right: 50px;
+  padding: 30px 0 0 40px;
+}
+
+.brown-container_text,
+p {
+  cursor: pointer;
+}
+
+.form-container-header {
+  text-align: end;
+  font-size: 14px;
+}
+
+.form-container {
+  padding: 40px 0 0 100px;
+}
+
+.form_name-username-input  {
+  display: flex;
+}
+
+
+
+.label {
+  color: #0d0c22;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.input {
+  background-color: #f3f3f4;
+  border: none;
+  border-radius: 5px;
+  margin: 0 0 30px 0;
+  font-weight: 100;
+}
+
+.email-pass {
+  width: 375px;
+  padding: 10px 10px;
+}
+
+.email-pass::placeholder {
+  font-size: 14px;
+  color: #bbb;
+  font-weight: 100;
+}
+
+.input:hover {
+  outline: 1px solid rgb(18, 127, 155);
+  background-color: transparent;
+}
+
+.input:focus {
+  outline: 1px solid rgb(18, 127, 155);
+  background-color: transparent;
+  box-shadow: 0 0 10px 0 #6e9daa;
+}
+
+.container_btn input {
+  background-color: rgb(18, 127, 155);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0 10px 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container_btn {
+  font-size: 11px;
+  color: #6e6d7a;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(76, 0, 255);
+}
+
+.chexbox-container {
+  font-size: 14px;
+  color: #6e6d7a;
+}
+
+@media screen and (max-width:765px){
+    .brown-container{
+        position: absolute;
+        top: -1200px;
+    }
+
+    .form-container{
+       
+        width: 100%;
+    }
+    .form-main{
+        margin: 80px 0 0 0;
+    }
+}
+
+.inputs-name-username {
+    margin: 0 10px 30px 0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3f3f4;
+}
